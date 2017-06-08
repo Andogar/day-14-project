@@ -1,0 +1,62 @@
+main {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+  border: 1px solid grey;
+  box-shadow: 5px 5px 5px #888888;
+  box-shadow: -1px 2px 30px -3px rgba(0,0,0,0.75);
+}
+
+h1 {
+  padding-left: 20px;
+  font-weight: normal;
+}
+
+header {
+  background: #5289C7;
+  color: white;
+  padding: 7px 0px;
+}
+
+form input, form textarea, form select {
+  width: 420px;
+  padding: 10px;
+  margin: 10px;
+  padding-left: 30px;
+}
+
+form textarea {
+  height: 60px;
+}
+
+#user-language {
+  height: 40px;
+  width: 464px;
+}
+
+button {
+  margin-left: 10px;
+  height: 40px;
+  background: #5289C7;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.button-div {
+  width: 100%;
+  background: #CCDDEF;
+  padding: 15px 0px;
+}
+
+i {
+  position: absolute;
+  padding-left: 17px;
+  padding-top: 20px;
+}
+
+::placeholder, .fa {
+  color: grey;
+}
